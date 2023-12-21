@@ -25,7 +25,7 @@ td,th{
     width: 16%;
     height: 50px;
 }
-.thead{
+.tablehead{
     font-weight: 600;
     background-color:#A5A5A5;
     color: #53503A;
@@ -53,19 +53,35 @@ td,th{
         font-size: 18px;
     }
 }
-@media screen and (min-width: 750px) and (max-width: 1023px){
+@media screen and (min-width: 801px) and (max-width: 1023px){
     table{
         font-size: 15px;
     }
 }
-@media screen and (max-width: 749px){
+@media screen and (min-width: 685px) and (max-width: 800px){
+    table{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 590px) and (max-width: 684px){
+    table{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 471px) and (max-width: 590px){
+    table{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 470px){
     .container{
         overflow-x: auto;
         overflow-y: hidden;
        
     }
     table{
-        width: 160%;
-}
+        width: 500px;
+        font-size: 10px;
+    }
 
 }
