@@ -1,87 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-.container{
-    height: 100vh;
+.container {
+  height: 100vh;
+  overflow-x: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-table,tr,td,th{
-    border: 1.5px solid black;
-    border-collapse:collapse;
-    text-align: center;
+table,
+tr,
+td,
+th {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  text-align: center;
 }
-.serial_no{
-    column-span:"2";
+.serial_no {
+  column-span: "2";
 }
-table{
-    width: 80%;
-    height: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
+table {
+  width: 910px;
+  height: 200px;
+  table-layout: fixed;
 }
-td,th{
-    width: 16%;
-    height: 50px;
+.tablehead {
+  background-color: #a5a5a5;
+  color: #53503a;
 }
-.tablehead{
-    font-weight: 600;
-    background-color:#A5A5A5;
-    color: #53503A;
-    
+.tr3,
+.tr5 {
+  background-color: #d9d9d9;
 }
-.tr3,.tr5{
-    background-color:#D9D9D9;
-}
-.tr2,.tr3,.tr3,.tr4,.tr5{
-    color: #57533f;
-    font-weight: 500;
-}
-@media screen and (min-width: 1801px) and (max-width: 2560px) {
-    table{
-        font-size: 35px;
-    }
-}
-@media screen and (min-width: 1440px) and (max-width: 1800px){
-    table{
-        font-size: 25px;
-    }
-}
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-    table{
-        font-size: 18px;
-    }
-}
-@media screen and (min-width: 801px) and (max-width: 1023px){
-    table{
-        font-size: 15px;
-    }
-}
-@media screen and (min-width: 685px) and (max-width: 800px){
-    table{
-        font-size: 13px;
-    }
-}
-@media screen and (min-width: 590px) and (max-width: 684px){
-    table{
-        font-size: 12px;
-    }
-}
-@media screen and (min-width: 471px) and (max-width: 590px){
-    table{
-        font-size: 10px;
-    }
-}
-@media screen and (max-width: 470px){
-    .container{
-        overflow-x: auto;
-        overflow-y: hidden;
-       
-    }
-    table{
-        width: 500px;
-        font-size: 10px;
-    }
-
+.tr2,
+.tr3,
+.tr3,
+.tr4,
+.tr5 {
+  color: #57533f;
 }
